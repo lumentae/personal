@@ -6,6 +6,8 @@ export interface ProjectProps {
     title: string;
     description: string;
     stars: number;
+
+    key: number;
 }
 
 
