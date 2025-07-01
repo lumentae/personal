@@ -3,7 +3,7 @@ import Link from "next/link";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faUser} from "@fortawesome/free-solid-svg-icons";
 
-interface GameProps {
+export interface GameProps {
     title: string;
     activePlayers: number;
     visits: number;

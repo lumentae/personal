@@ -2,7 +2,7 @@ import Link from "next/link";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faStar} from "@fortawesome/free-solid-svg-icons";
 
-interface ProjectProps {
+export interface ProjectProps {
     title: string;
     description: string;
     stars: number;
