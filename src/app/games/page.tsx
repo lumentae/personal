@@ -16,7 +16,7 @@ export default function Games() {
   }, [])
 
   const gameList = games.map(game => 
-    <Game title={game.title} activePlayers={game.activePlayers} visits={game.visits} likes={game.likes} imageUrl={game.imageUrl} gameId={game.gameId}></Game>
+    <Game title={game.title} activePlayers={game.activePlayers} visits={game.visits} likes={game.likes} imageUrl={game.imageUrl} gameId={game.gameId} key={game.key}></Game>
   );
 
   return (

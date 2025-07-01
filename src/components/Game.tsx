@@ -10,6 +10,8 @@ export interface GameProps {
     likes: number;
     imageUrl: string;
     gameId: number;
+    
+    key: number;
 }
 
 
