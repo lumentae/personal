@@ -15,6 +15,9 @@ export const Header = () => {
                         <li>
                             <Link href="/games" className="hover:text-gray-300">Games</Link>
                         </li>
+                        <li>
+                            <Link href="/about/studio" className="hover:text-gray-300">About Studio</Link>
+                        </li>
                     </ul>
                 </nav>
             </div>
