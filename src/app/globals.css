@@ -45,3 +45,9 @@ body {
 .text-color {
   color: var(--foreground);
 }
+
+.image {
+  object-fit: fill;
+  width: 200px;
+  width: 200px
+}

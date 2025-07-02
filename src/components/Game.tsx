@@ -10,17 +10,16 @@ export interface GameProps {
     likes: number;
     imageUrl: string;
     gameId: number;
-    
+                            
     key: number;
 }
-
 
 export const Game = (props: GameProps) => {
     return (
         <Link href={`https://roblox.com/games/${props.gameId}`}>
             <div className="game-card rounded-xl">
                 <div className="flex justify-center">
-                    <Image src={props.imageUrl} alt={props.title} width={200} height={200} className="rounded-3xl"/>
+                    <Image src={props.imageUrl} alt={props.title} width={200} height={200} className="rounded-3xl image"/>
                 </div>
                 <h2 className="text-xl font-bold">{props.title}</h2>
                 <div className="game-stats">
